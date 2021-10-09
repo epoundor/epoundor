@@ -1,0 +1,116 @@
+:root{
+    --bg-main:hsl(233, 47%, 7%);
+    --card-bg:hsl(244, 38%, 16%);
+    --main-color:hsla(0, 0%, 100%, 0.75);
+    --stat-color:hsla(0, 0%, 100%, 0.6);
+    --f-size:15px;
+    --f-family-Lex:'Lexend Deca', sans-serif;
+    --f-family-Inter:'Inter', sans-serif;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    background-color: var(--bg-main);
+    font-size: var(--f-size);
+    font-family: var(--f-family-Lex);
+    font-weight: 400;
+}
+footer{
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+.content
+{
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-69%,-50%);
+}
+.card
+{
+    border-radius: 5px;
+    background-color: var(--card-bg);
+    color: white;
+    padding: 60px 90px 40px 60px;
+
+}
+.card h1 ,.strong{
+    font-family: var(--f-family-Inter);
+    font-weight: 700;
+    padding-bottom: 10px;
+    font-size: 2em;
+}
+.image{
+    border-radius:0 5px 5px 0;
+    background-image: url("images/image-header-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+}
+
+.accent{
+    color: hsl(277, 64%, 61%);
+}
+.stats{
+    margin-top: 70px;
+    font-family: var(--f-family-Inter);
+}
+.paragraph
+{
+    color:var(--stat-color);
+}
+.stats .paragraph{
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.degrade{
+    background-color: #5c009b;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+@media only screen and (max-width:400px){
+    .image{
+        background-image: url("images/image-header-mobile.jpg");
+        height: 190px;
+        width: 250px;
+        margin: 0px 0 -25px 0px;
+        transform: scale(0.83);
+        border-radius:5px 5px 0px 0;
+
+    }
+    .card h1{
+        font-size: 1em;
+    }
+    .content{
+        flex-direction: column-reverse;
+        margin: 20px 40px;
+        top: 0;
+        transform: translate(-70%,0%)
+    }
+    .paragraph{
+        text-align: center;
+        font-size: 7px;
+        transform: scale(1.5);
+        padding-top:5px ;
+    }
+    .card{
+        text-align: center;
+        left: 50%;
+        transform: translate(-50%);
+        align-items: center;
+        padding:40px 40px 0px 40px;
+
+
+    }
+    .stats{
+        flex-direction: column;
+        margin-top: 0px;
+        transform: scale(0.7);
+
+    }
+}

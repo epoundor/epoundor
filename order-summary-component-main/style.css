@@ -1,0 +1,116 @@
+.attribution { 
+    font-size: 11px; text-align: center; 
+    margin-bottom: 30px;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    background-color: #e0e8ff;
+    background-image: url('images/pattern-background-desktop.svg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    font-family : 'Red Hat Display', sans-serif ;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    
+}
+@media only screen and (max-width: 400px){
+    body{
+        background-image: url('images/pattern-background-mobile.svg');
+    }
+}
+
+.text-center{
+    padding: 20px 50px;
+}
+footer{
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+.center{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:white;
+    width: 400px;
+    height: auto;
+    border-radius: 15px;
+    z-index: 15;
+    padding: 0;
+}
+.image {
+    background-image: url("images/illustration-hero.svg");
+    background-size: cover;
+    background-position:center;
+    border-radius: 15px 15px 0 0;
+    height: 200px ;
+}
+.title{
+    font-weight: 900;
+    font-size: 1.5em;
+    color: hsl(223, 47%, 23%);
+}
+.strong{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+.desc{
+    color:hsl(224, 23%, 55%) ;
+    font-size: 16px;
+}
+.plan-box{
+    margin: 20px 0;
+    border-radius: 5px;
+}
+.plan{
+    padding: 20px 0;
+    line-height: 5px;
+    text-align: left;
+    margin-left:-40px ;
+    font-size: 16px;
+}
+.song{
+    background-image: url("images/icon-music.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 45px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+.change{
+    font-size: 12px;
+    text-align: right;
+    margin: 30px 10px;
+}
+.change a { 
+    font-weight: 700;
+    color: hsl(228, 45%, 44%); 
+}
+.change a:hover{
+    color: hsl(224, 23%, 55%);
+}
+.button{
+    background-color:hsl(245, 75%, 52%);
+    border-radius: 10px;
+    font-size: 1em;
+    color: white;
+    font-weight: 700;
+    box-shadow:0px 20px 28px -8px rgba(0,0,0,0.46);
+    margin-bottom: 30px;
+    padding: 15px 0;
+}
+.button:hover{
+    background-color:hsl(228, 45%, 44%); 
+}
+.cancel{
+    font-weight: 700;
+}
+.cancel :hover{
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+}
