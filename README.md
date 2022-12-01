@@ -5,7 +5,7 @@
 
 - 🌱 I’m currently learning **Data Science with Python and R**
 
-- 📝 I regularly write articles on [dev.to/epoundev](dev.to/epoundev)
+- 📝 I regularly write articles on [dev.to/epoundev](https://dev.to/epoundev)
 
 - 💬 Ask me about **react, vue gsap**
 
